@@ -95,6 +95,10 @@ footer .logo{font-size:2rem}
 footer p{color:#9fd3f5}
 footer nav{justify-content:center;flex-wrap:wrap;margin:22px 0}
 footer small{color:#6d9ab8}
+.x-social-link{position:fixed;right:24px;bottom:24px;z-index:40;display:flex;align-items:center;gap:8px;padding:10px 14px;border:1.5px solid rgba(255,201,40,.65);border-radius:999px;background:rgba(4,20,35,.88);box-shadow:0 8px 24px rgba(0,0,0,.35);font-family:'Lilita One','Nunito',system-ui,sans-serif;letter-spacing:.04em;transition:transform .2s,border-color .2s,background .2s}
+.x-social-link span:first-child{font-family:system-ui,sans-serif;font-size:1.15rem}
+.x-social-link:hover{transform:translateY(-3px);border-color:var(--cyan);background:#0b2a45}
+@media(max-width:520px){.x-social-link{right:14px;bottom:14px;padding:9px 12px;font-size:.9rem}}
 @media(max-width:900px){header nav{display:none}.hero{padding-top:100px}}
 @media(max-width:520px){.wallet{padding:8px 12px;font-size:.8rem}.logo{font-size:1.15rem}.btn{padding:12px 20px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
